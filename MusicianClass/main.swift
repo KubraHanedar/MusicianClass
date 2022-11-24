@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+let james = Musician()
+
+james.age = 50
+james.name = "James Hetfield"
+james.instrument = "Guitar"
+
+print(james.name)
 

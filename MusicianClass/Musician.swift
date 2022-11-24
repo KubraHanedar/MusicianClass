@@ -8,6 +8,15 @@ import Foundation
 
 class Musician {
     
+    //Property
+    var name = ""
+    var age = 0
+    var instrument = ""
+    
+    init() {
+        print("musician created")
+    }
+    
     
 }
 
