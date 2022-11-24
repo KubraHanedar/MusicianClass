@@ -13,8 +13,11 @@ class Musician {
     var age = 0
     var instrument = ""
     
-    init() {
-        print("musician created")
+    init(nameInit:String,ageInit: Int,instrumentInit:String) {
+        name = nameInit
+        age = ageInit
+        instrument = instrumentInit
+
     }
     
     
