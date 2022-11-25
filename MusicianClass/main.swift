@@ -10,4 +10,5 @@ import Foundation
 let james = Musician(nameInit: "James", ageInit: 50, instrumentInit: "Guitar", typeInit: .Bassist)
 print(james.age)
 print(james.type)
+james.sing()
 

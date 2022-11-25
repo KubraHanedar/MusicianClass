@@ -30,6 +30,9 @@ class Musician {
 
     }
     
+    func sing() {
+        print("nothing else matters")
+    }
     
 }
 
