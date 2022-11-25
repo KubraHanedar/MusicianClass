@@ -30,9 +30,13 @@ class Musician {
 
     }
     
-    func sing() {
+   func sing() {
         print("nothing else matters")
     }
+    private func test() {
+        print("test")
+    }
     
-}
+    }
+
 
