@@ -8,7 +8,10 @@
 import Foundation
 
 let james = Musician(nameInit: "James", ageInit: 50, instrumentInit: "Guitar", typeInit: .Bassist)
-print(james.age)
-print(james.type)
+//print(james.age)
+//print(james.type)
 james.sing()
 
+let kirk = SuperMusician(nameInit: "Kirk", ageInit: 55, instrumentInit: "Guitar", typeInit: .LeadGuitar)
+//kirk.sing()
+//kirk.sing2()
